@@ -1,0 +1,574 @@
+/* App.css */
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+
+
+.headerContainer {
+  margin-top: 40px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  object-fit: contain;
+  height: 80px;
+  width: auto;
+}
+
+.headerNav {
+  width: 17%;
+  justify-content: space-between;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.headerNav .navTitle {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+
+.navTitle {
+  justify-content: space-between;
+  width: 150px;
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(255, 96, 96, 1);
+}
+
+.displayContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  /* Ajoutez la position relative au conteneur parent */
+}
+
+.headerDisplay {
+  border-radius: 15px;
+  align-items: center;
+  object-fit: cover;
+  width: 75%;
+  height: 100%;
+  position: relative;
+  filter: brightness(50%);
+}
+
+
+
+.titleDisplay {
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* LOCATION CARD ( a faire pour le 03/04 janvier ) CHECK VALIDE */
+
+
+
+.locatContainer {
+  display: flex;
+  margin-top: 45px;
+  width: auto;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.locatUndercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: 75%;
+  height: 100%;
+  background-color: rgb(221, 221, 221)
+}
+
+.locatCard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 30%;
+  height: 50%;
+  position: relative;
+}
+
+.locatCard a {
+  width: 100%;
+}
+
+.image-containerHome {
+  display: flex;
+  position: relative;
+}
+
+.testimg {
+  position: relative;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  height: 300px;
+  width: 90%;
+  margin: 20px;
+}
+
+.GradientOpacity {
+  position: absolute;
+  bottom: 0;
+  top: 64%;
+  left: 20px;
+  width: 90%;
+  height: 30%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  border-radius: 15px;
+}
+
+
+.locatName {
+  width: 65%;
+  font-size: x-large;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 77%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  white-space: wrap;
+}
+
+
+/* FOOTER EN IMG ( a faire pour le 08/09 janvier )  CHECK VALIDE */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 1%;
+}
+
+.footerImg {
+  object-fit: cover;
+  width: 10%;
+  height: 30%;
+  margin-bottom: 30px;
+}
+
+.footerTitle {
+  font-size: x-large;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------- */
+/* A PROPOS A CREER ( a faire pour le 11/12 janvier )  CHECK VALIDE */
+/* --------------------------------- */
+
+.headerAbout {
+  width: 100%;
+  height: 100%;
+}
+
+.bodyAbout {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 6%;
+}
+
+.dropdown-containerAbout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  margin-top: 50px;
+  align-items: center;
+}
+
+
+
+
+/* --------------------------------- */
+/* DETAIL  A CREER ( a faire pour le 15/16 janvier )   */
+/* --------------------------------- */
+
+.headerDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 40px;
+}
+
+.underDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.containDetail1 {
+  display: flex;
+  align-items: left;
+  justify-content: start;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 40px;
+  height: auto;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.picsDetail img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  z-index: 10;
+  font-size: 90px;
+}
+
+.slider-index {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateY(-50%);
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+}
+
+.slider-arrow.left {
+  left: 10px;
+}
+
+.slider-arrow.right {
+  right: 10px;
+}
+
+.titleDetail {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgba(255, 96, 96, 1);
+}
+
+.locationDetail {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 96, 96, 1);
+}
+
+.tagsContainer {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background-color: rgba(255, 96, 96, 1);
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.tag:hover {
+  background-color: #8a2d2d;
+}
+
+
+.containDetail2 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  flex-direction: column;
+  width: 20%;
+  margin-top: 40px;
+}
+
+.profilContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameDetail {
+  display: flex;
+  align-items: end;
+  text-align: right;
+  margin-right: 10px;
+  color: rgba(255, 96, 96, 1);
+  white-space: wrap;
+  font-weight: 500;
+  width: 40%;
+  font-size: 23px;
+}
+
+.profilDetail {
+  border-radius: 60px;
+  width: 30%;
+}
+
+.starsDetail {
+  display: flex;
+  font-size: 27px;
+  width: 100%;
+  white-space: nowrap;
+  justify-content: end;
+  color: rgba(255, 96, 96, 1);
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.starsIcon {
+  margin-right: 20px;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-top: 40px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.dropdown-button {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 96, 96, 1);
+  width: 100%;
+  height: 10%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.dropdown-button.open {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.dropdown-title {
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.dropdownIcon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.dropdown-item {
+  background-color: #F6F6F6;
+  width: 100%;
+  padding-top: 15px;
+  margin-top: -1px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #DADADA;
+}
+
+.dropdown-item:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.dropitem-title {
+  margin-left: 10px;
+}
+
+.dropdescription-title {
+  display: flex;
+  margin-left: 15px;
+  width: 95%;
+  white-space: normal;
+  /* Rétablit le comportement normal du saut de ligne */
+}
+
+
+.dropdown-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+.contain404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.title404 {
+  font-size: 170px;
+  color: rgba(255, 96, 96, 1);
+  padding-top: 5%;
+}
+
+.p404 {
+  font-size: 30px;
+  color: rgba(255, 96, 96, 1);
+  font-weight: 500;
+  padding-top: 10%;
+}
+
+.link404 {
+  font-size: 25px;
+  color: rgba(255, 96, 96, 1);
+  font-weight: 400;
+  padding-top: 20%;
+  padding-bottom: 6%;
+}
+
+
+
+
+
+@media (max-width: 1400px) {
+  .headerNav {
+    width: auto;
+  }
+  .titleDisplay {
+    width: 70%;
+    white-space: normal;
+    left: auto;
+  }
+  .locatUndercontainer {
+    flex-direction: column;
+    width: 80%;
+  }
+  .locatCard {
+    width: 100%;
+  }
+  .footerImg {
+    width: 30%;
+  }
+  .underDetail {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .containDetail1 {
+    width: 100%;
+  }
+  .tag {
+    font-size: 19px;
+  }
+  .containDetail2 {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .starsDetail {
+    justify-content: flex-start;
+    margin-bottom: 25px;
+  }
+  .profilContainer {
+    width: auto;
+  }
+  .profilDetail {
+    width: 40%;
+  }
+  .nameDetail {
+    margin-right: 20px;
+  }
+  .starsIcon {
+    margin-right: 10px;
+    font-size: 25px;
+  }
+  .dropdown-container {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .headerNav {
+    flex-direction: column;
+  }
+  .navTitle {
+    margin: 10px;
+  }
+}
