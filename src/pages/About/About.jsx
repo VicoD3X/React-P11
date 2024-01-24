@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../../App.css';
 import aboutDisplay from '../../pictures/aboutDisplay.png';
 import Dropdown from '../../components/Dropdown';

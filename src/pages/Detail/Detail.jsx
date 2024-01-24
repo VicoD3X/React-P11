@@ -8,7 +8,7 @@ import Dropdown from '../../components/Dropdown';
 import NotFound from '../404/404';
 
 
-
+//YO
 const DetailPage = () => {
     const { id } = useParams();
     const [itemDetails, setItemDetails] = useState(null);
