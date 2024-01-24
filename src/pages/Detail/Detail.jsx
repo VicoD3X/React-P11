@@ -8,7 +8,7 @@ import Dropdown from '../../components/Dropdown';
 import NotFound from '../404/404';
 
 
-//YO
+
 const DetailPage = () => {
     const { id } = useParams();
     const [itemDetails, setItemDetails] = useState(null);
@@ -16,7 +16,7 @@ const DetailPage = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        const fetchData = async () => {
+        const fetchData = async () => { 
             try {
                 const response = await fetch('/data.json');
                 if (!response.ok) {
